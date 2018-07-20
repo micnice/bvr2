@@ -1,0 +1,12 @@
+/.idea*
+*.iml
+*.pdf
+*nbactions.xml
+*.metadata
+*MyReports*
+*.DS_Store
+*nb-configuration.xml
+/target/
+/fact-reports/target/
+/fact-portal/target/
+/fact-logic/target/
