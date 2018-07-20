@@ -1,0 +1,79 @@
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 8 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# You have unmerged paths.
+#   (fix conflicts and run "git commit")
+#
+# Changes to be committed:
+#
+#	new file:   .gitignore~
+#	modified:   employment-business/src/main/java/zw/employment/council/business/App_1.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/TestClass.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/dao/BeneficiaryGradeDAO.java
+#	new file:   employment-business/src/main/java/zw/employment/council/business/dao/ContributionDAO.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/dao/GradeDAO.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/dao/impl/BeneficiaryGradeDAOImpl.java
+#	new file:   employment-business/src/main/java/zw/employment/council/business/dao/impl/ContributionDAOImpl.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/dao/repo/BeneficiaryGradeRepository.java
+#	new file:   employment-business/src/main/java/zw/employment/council/business/dao/repo/ContributionRepository.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/domain/BeneficiaryContact.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/domain/Contact.java
+#	new file:   employment-business/src/main/java/zw/employment/council/business/domain/Contribution.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/domain/GeneralParameters.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/service/BeneficiaryService.java
+#	new file:   employment-business/src/main/java/zw/employment/council/business/service/ContributionService.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/service/GradeService.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/service/impl/BeneficiaryGradeServiceImpl.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/service/impl/BeneficiaryServiceImpl.java
+#	new file:   employment-business/src/main/java/zw/employment/council/business/service/impl/ContributionServiceImpl.java
+#	modified:   employment-business/src/main/java/zw/employment/council/business/service/impl/GradeServiceImpl.java
+#	modified:   employment-business/src/main/resources/jdbc.properties
+#	modified:   employment-web/src/main/java/zw/employment/council/web/config/CouncilSession.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryContactPage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryEditPage.java
+#	new file:   employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryGradeDataListPage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryGradePage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryListPage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/TemplatePage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/admin/AdministerDatabasePage.java
+#	new file:   employment-web/src/main/java/zw/employment/council/web/pages/admin/ContributionsEditPage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/admin/GradeEditPage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/pages/admin/GradeViewPage.java
+#	renamed:    employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryContactPanelList.java -> employment-web/src/main/java/zw/employment/council/web/pages/panels/BeneficiaryContactPanelList.java
+#	renamed:    employment-web/src/main/java/zw/employment/council/web/search/BeneficiaryDataViewPanel.java -> employment-web/src/main/java/zw/employment/council/web/pages/panels/BeneficiaryDataViewPanelList.java
+#	new file:   employment-web/src/main/java/zw/employment/council/web/pages/panels/BeneficiaryGradeDataViewPanelList.java
+#	new file:   employment-web/src/main/java/zw/employment/council/web/pages/panels/BeneficiaryGradePanelList.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/search/SearchBeneficiaryPage.java
+#	modified:   employment-web/src/main/java/zw/employment/council/web/utility/GeneralUtils.java
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/pages/BeneficiaryContactEditPage.html
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/pages/BeneficiaryEditPage.html
+#	new file:   employment-web/src/main/resources/zw/employment/council/web/pages/BeneficiaryGradeDataListPage.html
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/pages/TemplatePage.html
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/pages/admin/AddressTypeEditPage.html
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/pages/admin/AdministerDatabasePage.html
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/pages/admin/ContactTypeEditPage.html
+#	new file:   employment-web/src/main/resources/zw/employment/council/web/pages/admin/ContributionsEditPage.html
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/pages/admin/GradeEditPage.html
+#	renamed:    employment-web/src/main/resources/zw/employment/council/web/pages/BeneficiaryContactPanelList.html -> employment-web/src/main/resources/zw/employment/council/web/pages/panels/BeneficiaryContactPanelList.html
+#	renamed:    employment-web/src/main/resources/zw/employment/council/web/search/BeneficiaryDataViewPanel.html -> employment-web/src/main/resources/zw/employment/council/web/pages/panels/BeneficiaryDataViewPanelList.html
+#	new file:   employment-web/src/main/resources/zw/employment/council/web/pages/panels/BeneficiaryGradeDataViewPanelList.html
+#	renamed:    employment-web/src/main/resources/zw/employment/council/web/pages/BeneficiaryGradePanelList.html -> employment-web/src/main/resources/zw/employment/council/web/pages/panels/BeneficiaryGradePanelList.html
+#	modified:   employment-web/src/main/resources/zw/employment/council/web/search/SearchBeneficiaryPage.html
+#	new file:   employment-web/src/main/webapp/assets/css/bootstrap.css~
+#
+# Unmerged paths:
+#   (use "git add/rm <file>..." as appropriate to mark resolution)
+#
+#	both modified:      employment-business/src/main/java/zw/employment/council/business/dao/impl/GradeDAOImpl.java
+#	both modified:      employment-business/src/main/java/zw/employment/council/business/domain/BeneficiaryGrade.java
+#	both modified:      employment-business/src/main/java/zw/employment/council/business/service/BeneficiaryGradeService.java
+#	both modified:      employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryGradeEditPage.java
+#	deleted by them:    employment-web/src/main/java/zw/employment/council/web/pages/BeneficiaryGradePanelList.java
+#	both modified:      employment-web/src/main/resources/zw/employment/council/web/pages/BeneficiaryGradeEditPage.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	file.list

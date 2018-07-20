@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>zw.co.micnice</groupId>
+    <artifactId>fact</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>fact</name>
+    <modules>
+        <module>fact-reports</module>
+        <module>fact-portal</module>
+        <module>fact-logic</module>
+    </modules>
+  
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <apache.wicket.version>6.4.0</apache.wicket.version>
+        <spring.version>3.2.0.RELEASE</spring.version>
+        <spring-data-jpa.version>1.2.0.RELEASE</spring-data-jpa.version>
+        <jpa.version>2.0.0</jpa.version>
+        <junit.version>4.11</junit.version>
+        <hibernate.version>4.1.4.Final</hibernate.version>
+        <slf4j.version>1.6.4</slf4j.version>
+        <aspectj.version>1.6.12</aspectj.version>
+        <jodatime.version>2.1</jodatime.version>
+        <mysql.version>5.1.14</mysql.version>
+        <commons-dbcp.version>1.2.2</commons-dbcp.version>
+        <wicket.version>6.4.0</wicket.version>
+        <hamcrest.version>1.1</hamcrest.version>
+        <hibernate-jpa.version>1.0.0.Final</hibernate-jpa.version>
+        <jasper-reports.version>5.0.0</jasper-reports.version>
+        <jfree-chart.version>1.0.12</jfree-chart.version>
+        <wicket-jquery-ui.version>6.8.1</wicket-jquery-ui.version> <!-- or 1.5.10 -->
+        <apache-commons-collections.version>3.2.0</apache-commons-collections.version>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency> 
+       
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>5.0.1</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
+   
+
+    <description>Employment Council project is a project for all the companies under the Employment Council</description>
+</project>
