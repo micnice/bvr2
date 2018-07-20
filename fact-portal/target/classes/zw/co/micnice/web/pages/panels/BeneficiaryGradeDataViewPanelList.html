@@ -1,0 +1,52 @@
+<wicket:panel>
+    
+       <!-- <h2><div wicket:id="navigator"></div></h2> -->
+    	
+        <div >
+            <table border="0" cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                <thead>
+                    <tr >
+                        <th>Beneficiary Name</th>
+                        <th>Grade</th>
+                        <th>Total Number of Employees</th>                        
+                        <th>Expected Employee Contribution</th>                        
+                        <th>Actual Employee Contribution</th>                        
+                        <th>Expected Employer Contribution</th>                        
+                        <th>Actual Employer Contribution</th>                        
+                                              
+                    </tr>
+                </thead>
+                <tbody >
+                    <tr wicket:id="eachItem">
+                        <td>
+                            <a href="#" name="lists_row_link" wicket:id="beneficiaryViewPage">
+                                <span wicket:id="beneficiaryName" name="lists_row_name"></span>
+                            </a>                            
+                        </td>
+                        <td>
+                            <a href="#" name="lists_row_link" wicket:id="gradeViewPage">
+                                <span wicket:id="gradeName" name="lists_row_name"></span>
+                            </a>                            
+                        </td>
+                        <td>
+                            <span wicket:id="numberOfEmployees" name="lists_row_name"></span>                          
+                        </td>                        
+                        <td>
+                            <span wicket:id="expectedEmployeeContribution" name="lists_row_name"></span>                          
+                        </td>                        
+                        <td>
+                            <span wicket:id="actualEmployeeContribution" name="lists_row_name"></span>                          
+                        </td>                        
+                        <td>
+                            <span wicket:id="expectedEmployerContribution" name="lists_row_name"></span>                          
+                        </td>                        
+                        <td>
+                            <span wicket:id="actualEmployerContribution" name="lists_row_name"></span>                          
+                        </td>                        
+                      
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <br />
+</wicket:panel>

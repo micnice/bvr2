@@ -1,0 +1,67 @@
+<wicket:extend>
+    <div wicket:id="errorMessage"></div>
+    <form class="form-signin" wicket:id="form">
+        <h2 class="form-signin-heading">Bank Account</h2>
+        <br />
+        <span>Bank Account Name</span>
+         <input type="text" class="input-block-level" wicket:id="name" placeholder="Account Name"/> 
+        <span>Account Number</span>
+         <input type="text" class="input-block-level" wicket:id="accNumber" placeholder="Account Number"/> 
+        <span>Branch</span>
+          <input type="text" class="input-block-level" wicket:id="branch" placeholder="Branch"/> 
+        <span>Bank</span>
+         <input type="text" class="input-block-level" wicket:id="bank" placeholder="Bank"/> 
+     <!--   <table border="0" cellpadding="0" cellspacing="0" class="table table-striped">
+            <thead>
+            </thead>
+            <tbody >
+                <tr >
+                    <td >
+                        <b >
+                            Account Name
+                        </b>
+                    </td>
+                    <td >
+                       <input type="text" class="input-block-level" wicket:id="name" placeholder="Account Name"/> 
+                    </td>
+                </tr>
+                 <tr >
+                    <td >
+                        <b >
+                            Branch
+                        </b>
+                    </td>
+                    <td >
+                       <input type="text" class="input-block-level" wicket:id="accNumber" placeholder="Account Number"/> 
+                    </td>
+                </tr>
+                 <tr >
+                    <td >
+                        <b >
+                            Branch
+                        </b>
+                    </td>
+                    <td >
+                       <input type="text" class="input-block-level" wicket:id="branch" placeholder="Branch"/> 
+                    </td>
+                </tr>
+                <tr >
+                    <td >
+                        <b >
+                            Bank
+                        </b>
+                    </td>
+                    <td >
+                       <input type="text" class="input-block-level" wicket:id="bank" placeholder="Bank"/> 
+                    </td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
+     -->
+        <button class="btn btn-large btn-primary" type="submit">Save Details</button>
+        <a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Cancel</a>
+    </form>
+</wicket:extend>

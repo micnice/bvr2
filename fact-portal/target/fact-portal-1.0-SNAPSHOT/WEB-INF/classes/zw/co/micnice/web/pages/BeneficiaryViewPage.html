@@ -1,0 +1,63 @@
+
+<wicket:extend>
+
+    <div class="row">  
+        <div class="span6">  
+            <div class="tabbable">  
+                <ul class="nav nav-tabs">  
+                    <li class="active"><a href="#beneficiaryinfo" data-toggle="tab">General Information</a></li>
+                </ul>  
+                <div class="tab-content">  
+                    <div class="tab-pane active" id="beneficiaryinfo">
+                        <div >
+                            <h3>
+                                <span >Item</span> Information
+                            </h3>
+                            <div >
+                                <ul>
+                                    <li >
+                                        <a href="#" wicket:id="editLink">Update this Information</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- editRecord -->
+                            <div>
+                                <table border="0" cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+
+                                    <tbody>
+                                        <tr class="">
+                                            <td>
+                                                <label>Item Name</label>
+                                            </td>
+
+                                            <td>
+                                                <b>
+                                                    <span wicket:id="firstName">sample</span>
+                                                </b>
+                                            </td>
+                                        </tr>
+                                         <tr class="">
+                                            <td>
+                                                <label>Quantity</label>
+                                            </td>
+
+                                            <td>
+                                                <b>
+                                                    <span wicket:id="lastName">sample</span>
+                                                </b>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Search another Item</a>
+                            </div> 
+
+                        </div>            <!-- End  -->
+                        <br style="clear: both;">
+                    </div>  
+
+                </div>  
+            </div>  
+        </div>  
+    </div>
+    <br style="clear: both;"/>
+</wicket:extend>

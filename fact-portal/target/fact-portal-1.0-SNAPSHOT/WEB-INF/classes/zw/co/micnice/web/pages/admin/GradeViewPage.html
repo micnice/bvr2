@@ -1,0 +1,78 @@
+<wicket:extend>
+ <div >
+        <h3>
+            <span >Grade</span> Information</h3>
+            <div >
+                <ul>
+                    <li >
+                        <a href="#" wicket:id="editLink">Update this Information</a>
+                    </li>
+                </ul>
+            </div> <!-- editRecord -->
+            <div>
+                <table border="0" cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                    <tbody>
+                        <tr class="">
+                            <td>
+                                    <label>Name</label>
+                            </td>
+                           
+                            <td>
+                                <b>
+                                    <span wicket:id="fullName">sample</span>
+                                </b>
+                            </td>
+                        </tr>
+                        
+                        <tr >
+                            <td>
+                                    <label>Abbreviation</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="shortName"></span>
+                                </b>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                    <label>Hourly Rate</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="hourlyRate"></span>
+                                </b>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                    <label>Weekly Rate</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="weeklyRate"></span>
+                                </b>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                    <label>Monthly Rate</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="monthlyRate"></span>
+                                </b>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Go Back</a>
+            </div> 
+
+        </div>
+        <br style="clear: both;">
+</wicket:extend>

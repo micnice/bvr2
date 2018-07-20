@@ -1,0 +1,57 @@
+<wicket:extend>
+ <div >
+        <h3>
+            <span >Accounts Parameters</span> Information</h3>
+            <div >
+                <ul>
+                    <li >
+                        <a href="#" wicket:id="editLink">Update this Information</a>
+                    </li>
+                </ul>
+            </div> <!-- editRecord -->
+            <div>
+                <table border="0" cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                    
+                    <tbody>
+                        <tr class="">
+                            <td>
+                                    <label>Invoice Transaction Type</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="invoiceTransactionType">sample</span>
+                                </b>
+                            </td>
+                        </tr>
+
+                        <tr >
+                            <td>
+                                    <label>Credit Note Transaction Type</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="creditNoteTransactionType"></span>
+                                </b>
+                            </td>
+                        </tr>
+                         <tr >
+                            <td>
+                                    <label>Default Payment Method</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="defaultPaymentMethod"></span>
+                                </b>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Go Back</a>
+            </div> 
+
+        </div>
+        <br style="clear: both;">
+</wicket:extend>

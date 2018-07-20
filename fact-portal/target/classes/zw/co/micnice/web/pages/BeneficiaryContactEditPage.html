@@ -1,0 +1,21 @@
+<wicket:extend>
+    <h1>Add/Update Contact Detail</h1>
+    <h2>
+        <!-- <span wicket:id="beneficiary.beneficiaryName" class="form-signin-heading"></span> -->
+    </h2>
+
+    <div wicket:id="errorMessage"></div>
+    <form class="form-signin" wicket:id="form">
+        <h2 class="form-signin-heading">Contact Details</h2>
+        <span>Contact Type</span>
+        <select class="input-block-level" wicket:id="contactType" id="contactType" placeholder="Choose Contact Type"></select>
+        <span>Contact Detail</span>
+        <input type="text" class="input-block-level" wicket:id="contactDetail" id="contactDetail" placeholder="Enter Contact Detail"></input>
+        <span>Activate this Contact</span>
+        <input type="checkbox" class="input-block-level" wicket:id="status" id="beneficiaryName"/>
+        <button class="btn btn-large btn-primary" type="submit">Save Details</button>
+        <a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Cancel</a>
+    </form>
+
+
+</wicket:extend>

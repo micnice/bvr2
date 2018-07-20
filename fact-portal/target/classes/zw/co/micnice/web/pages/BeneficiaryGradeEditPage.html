@@ -1,0 +1,22 @@
+<wicket:extend>
+    <h1>Add/Update Grade Detail</h1>
+    <h2>
+        <span wicket:id="beneficiary.beneficiaryName" class="form-signin-heading"></span>
+    </h2>
+
+    <div wicket:id="errorMessage"></div>
+    <form class="form-signin" wicket:id="form">
+        <h2 class="form-signin-heading">Grade Details</h2>
+        <span>Grade</span>
+        <select class="input-block-level" wicket:id="grade" id="city" placeholder="Choose grade"></select>
+        <span>Number Of Employees</span>
+        <input type="text" class="input-block-level" wicket:id="numberOfEmployees" id="beneficiaryName" placeholder="Number Of Employees in grade"/>
+        <span>Active</span><input type="checkbox" class="input-block-level" wicket:id="status" id="beneficiaryName"/>
+        <span>Total Basic</span>
+        <input type="text" class="input-block-level" wicket:id="totalBasic" id="beneficiaryName" placeholder="Total Grade Basic"/>
+        <button class="btn btn-large btn-primary" type="submit">Save Details</button>
+        <a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Cancel</a>
+    </form>
+
+
+</wicket:extend>

@@ -1,0 +1,43 @@
+
+<wicket:panel>
+    <div >
+        <h3>
+            <span name="type_name">Contact Details</span> 
+        </h3>
+        <p >          
+            <span>
+                <a href="#" wicket:id="beneficiaryContactLink">Add new Contact</a>
+            </span>            
+        </p>
+
+        <div >
+            <div >
+                <table border="0" cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                    <thead>
+                        <tr >
+                            <th>Contact</th>
+                            <th>Contact Detail</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody >  
+                        <tr wicket:id="beneficiaryContactList">
+                            <td>
+                                <span wicket:id="contactType.name" name="Contact Type"></span>
+                            </td>
+                            <td>
+                                <span wicket:id="contactDetail" name="detail" ></span>                            
+                            </td>
+                            <td>
+                                <a name="list_edit_link" href="#" wicket:id="beneficiaryContactLink">Update this Information</a>
+                            </td>                                       
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br style="clear: both;">       
+        <!-- dataTable -->
+    </div>   
+
+</wicket:panel>

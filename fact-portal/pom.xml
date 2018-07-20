@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>zw.co.micnice</groupId>
+        <artifactId>fact</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>zw.co.micnice.web</groupId>
+    <artifactId>fact-portal</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>fact-portal</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-core</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-extensions</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-guice</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-jmx</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-auth-roles</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-datetime</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-velocity</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-spring</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-devutils</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-cdi</artifactId>
+            <version>${apache.wicket.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+      
+      
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>${jasper-reports.version}</version>
+            <type>jar</type>
+        </dependency>
+        
+        <dependency>
+            <groupId>jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>${jfree-chart.version}</version>
+            <type>jar</type>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.googlecode.wicket-jquery-ui</groupId>
+            <artifactId>wicket-jquery-ui</artifactId>
+            <version>${wicket-jquery-ui.version}</version> 
+        </dependency>
+        <dependency>
+            <groupId>zw.co.micnice.logic</groupId>
+            <artifactId>fact-logic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--TODO --> 
+        <!--DO NOT REMOVE OR ELSE WILL NOT LAUNCH-->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.0</version> 
+        </dependency>
+        <dependency>
+            <groupId>zw.co.micnice.reports</groupId>
+            <artifactId>fact-reports</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4</version>
+        </dependency>
+    </dependencies>
+    
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <repositories>
+        <repository>
+            <id>spring-repository</id>
+            <name>SpringSource Repository</name>
+            <url>http://repo.springsource.org/release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository> 
+    </repositories>
+</project>

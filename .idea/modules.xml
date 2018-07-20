@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fact.iml" filepath="$PROJECT_DIR$/fact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fact-logic/fact-logic.iml" filepath="$PROJECT_DIR$/fact-logic/fact-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fact-portal/fact-portal.iml" filepath="$PROJECT_DIR$/fact-portal/fact-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fact-reports/fact-reports.iml" filepath="$PROJECT_DIR$/fact-reports/fact-reports.iml" />
+    </modules>
+  </component>
+</project>

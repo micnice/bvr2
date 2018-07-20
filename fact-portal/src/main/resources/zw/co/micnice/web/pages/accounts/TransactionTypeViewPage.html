@@ -1,0 +1,90 @@
+<wicket:extend>
+ <div >
+        <h3>
+            <span >Transaction Type</span> Information</h3>
+            <div >
+                <ul>
+                    <li >
+                        <a href="#" wicket:id="editLink">Update this Information</a>
+                    </li>
+                </ul>
+            </div> <!-- editRecord -->
+            <div>
+                <table border="0" cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                    
+                    <tbody>
+                        <tr class="">
+                            <td>
+                                    <label>Name</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="name">sample</span>
+                                </b>
+                            </td>
+                        </tr>
+
+                        <tr >
+                            <td>
+                                    <label>Effect</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="effect"></span>
+                                </b>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                    <label>Book</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="book"></span>
+                                </b>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                    <label>Credit Ledger Account</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="crLedger"></span>
+                                </b>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                    <label>Debit Ledger Account</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="drLedger"></span>
+                                </b>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                    <label>Payment Method</label>
+                            </td>
+                            
+                            <td>
+                                <b>
+                                    <span wicket:id="paymentMethod"></span>
+                                </b>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Go Back</a>
+            </div> 
+
+        </div>
+        <br style="clear: both;">
+</wicket:extend>

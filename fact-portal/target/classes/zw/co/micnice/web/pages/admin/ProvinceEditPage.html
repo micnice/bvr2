@@ -1,0 +1,14 @@
+<wicket:extend>
+    <div wicket:id="errorMessage"></div>
+    <form class="form-signin" wicket:id="form">
+        <h2 class="form-signin-heading">Auction Floor</h2>
+        <span>Type Name</span>
+        <input type="text" class="input-block-level" wicket:id="name" placeholder="Enter Name of the Flow"/>
+        <span>Description</span>
+        <input type="text" class="input-block-level" wicket:id="description" placeholder="Enter the Description here"/>
+        <span>Short Name</span>
+        <input type="text" class="input-block-level" wicket:id="shortName" placeholder="Short Name"/>
+        <button class="btn btn-large btn-primary" type="submit">Save Details</button>
+        <a class="btn btn-large btn-primary" type="button" wicket:id="btnCancel">Cancel</a>
+    </form>
+</wicket:extend>

@@ -1,0 +1,39 @@
+
+<wicket:panel>
+<div >
+        <p >          
+            <span>
+                <a name="list_edit_link" href="#" wicket:id="beneficiaryGradeLink">Add</a> to Grade
+            </span>            
+        </p>
+    <div >
+        <div>
+            <table border="0" cellpadding="0" cellspacing="0" class="table table-bordered table-striped">
+                <thead>
+                    <tr >
+                        <th>Grade</th>
+                        <th>Number Of Employees in Grade</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody >  
+                    <tr wicket:id="beneficiaryGradeList">
+                        <td>
+                            <span wicket:id="grade.fullName" name="grade"></span>
+                        </td>
+                        <td>
+                            <span wicket:id="numberOfEmployees" name="numberOfEmployees" ></span>                            
+                        </td>
+                        <td>
+                            <a name="list_edit_link" href="#" wicket:id="beneficiaryGradeLink">Update this Information</a>
+                        </td>                                       
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br style="clear: both;">       
+    <!-- dataTable -->
+</div>   
+
+</wicket:panel>
