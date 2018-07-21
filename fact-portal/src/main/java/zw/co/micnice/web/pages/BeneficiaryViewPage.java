@@ -9,8 +9,6 @@ import org.apache.wicket.model.LoadableDetachableModel;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.spring.injection.annot.SpringBean;
 import zw.co.micnice.logic.domain.Beneficiary;
-import zw.co.micnice.logic.process.InvoiceProcess;
-import zw.co.micnice.logic.service.BeneficiaryGradeService;
 import zw.co.micnice.logic.service.BeneficiaryService;
 import zw.co.micnice.web.search.SearchBeneficiaryPage;
 
@@ -22,10 +20,6 @@ public class BeneficiaryViewPage extends IAdministerDatabaseBasePage {
 
     @SpringBean
     private BeneficiaryService beneficiaryService;
-    @SpringBean
-    private BeneficiaryGradeService beneficiaryGradeService;
-    @SpringBean
-    private InvoiceProcess invoiceProcess;
 
     public BeneficiaryViewPage(PageParameters parameters) {
         this(parameters.get("beneficiaryId").toLong());

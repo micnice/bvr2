@@ -6,7 +6,6 @@ package zw.co.micnice.logic.service;
 
 import java.util.List;
 import zw.co.micnice.logic.domain.Beneficiary;
-import zw.co.micnice.logic.domain.Registrant;
 import zw.co.micnice.logic.domain.BeneficiaryAddress;
 
 /**

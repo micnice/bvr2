@@ -15,7 +15,7 @@ public class Contact extends BaseIdEntity implements Serializable {
     private String contactDetail;
     private Boolean status = Boolean.TRUE;
     private ContactType contactType;
-    private Registrant registrant;
+    private Beneficiary beneficiary;
 
     public Contact() {
     }
@@ -54,16 +54,15 @@ public class Contact extends BaseIdEntity implements Serializable {
         this.contactType = contactType;
     }
 
-    
     @ManyToOne
-    public Registrant getRegistrant() {
-        return registrant;
+    public Beneficiary getBeneficiary() {
+        return beneficiary;
     }
 
-    public void setRegistrant(Registrant registrant) {
-        this.registrant = registrant;
+    public void setBeneficiary(Beneficiary beneficiary) {
+        this.beneficiary = beneficiary;
     }
-    
+
     @Override
     public String toString() {
         return getContactDetail();

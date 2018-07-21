@@ -32,7 +32,7 @@ public class BeneficiaryContactPage extends TemplatePage {
         add(new Link<Void>("next") {
             @Override
             public void onClick() {
-              setResponsePage(new BeneficiaryGradePage(model.getObject().getId()));
+              setResponsePage(new BeneficiaryAddressEditPage(model.getObject().getId()));
             }
         });        
     }

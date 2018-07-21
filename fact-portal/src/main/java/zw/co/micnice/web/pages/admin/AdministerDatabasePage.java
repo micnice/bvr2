@@ -1,10 +1,6 @@
 package zw.co.micnice.web.pages.admin;
 
 import org.apache.wicket.markup.html.link.BookmarkablePageLink;
-import zw.co.micnice.web.pages.accounts.AccountListPage;
-import zw.co.micnice.web.pages.accounts.BankListPage;
-import zw.co.micnice.web.pages.accounts.PaymentMethodListPage;
-import zw.co.micnice.web.pages.accounts.TransactionTypeListPage;
 
 /**
  *

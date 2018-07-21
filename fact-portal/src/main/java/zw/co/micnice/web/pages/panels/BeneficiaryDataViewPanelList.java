@@ -22,7 +22,6 @@ import org.apache.wicket.request.mapper.parameter.PageParameters;
 import zw.co.micnice.logic.domain.Beneficiary;
 import zw.co.micnice.web.pages.BeneficiaryEditPage;
 import zw.co.micnice.web.pages.BeneficiaryViewPage;
-import zw.co.micnice.web.pages.admin.ContributionsEditPage;
 import zw.co.micnice.web.utility.EvenTableRowBehavior;
 
 /**
